@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class QuizInterface {
 
+    // Here is the interface for the quiz. This is what the user will be interacting with.
 
+
+    // All the variables needed to make calculations.
     private int numberOfQuestions;
     private Scanner scan;
     private int questionCount = 0;
@@ -22,6 +25,8 @@ public class QuizInterface {
         this.scan = scan;
     }
 
+
+    // Starting the quiz.
     public void quizStart(){
 
         for(int i = 1; i <= numberOfQuestions; i++){
